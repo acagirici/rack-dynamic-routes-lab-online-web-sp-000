@@ -5,5 +5,7 @@ class Application
     req = Rack::Request.new(env)
     
   if req.path=="/items/<ITEM NAME>"
+    resp.write "Your Request is accepted"
+  else
   
 end
